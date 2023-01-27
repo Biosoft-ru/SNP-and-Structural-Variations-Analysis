@@ -1,0 +1,10 @@
+{
+	"snp_and_snv_analysis.reference_fasta":"human_hs37d5.fasta",
+	"snp_and_snv_analysis.fastqs":["a1.fastq","a2.fastq"],
+	"snp_and_snv_analysis.reference_name":"hs37d5",
+	"snp_and_snv_analysis.sample_name":"some_name",
+	"snp_and_snv_analysis.regions_pbsv":["20"],
+	"snp_and_snv_analysis.regions_deepvariant":"20",
+	"snp_and_snv_analysis.tr_bed":"human_hs37d5.trf.bed",
+	"snp_and_snv_analysis.model_type":"PACBIO"
+}

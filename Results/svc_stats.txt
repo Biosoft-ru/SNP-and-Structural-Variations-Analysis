@@ -1,0 +1,4 @@
+Len	Del	Dup	Inv	INS	TRA	UNK
+0-50bp	4	0	0	3	0	0
+50-100bp	1	0	0	2	0	0
+100-1000bp	1	0	0	2	0	0

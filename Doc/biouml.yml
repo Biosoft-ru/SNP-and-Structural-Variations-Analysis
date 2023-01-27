@@ -1,0 +1,3 @@
+files:
+- name: snp_and_svc.md
+  transformer: ru.biosoft.access.support.FileTextTransformer

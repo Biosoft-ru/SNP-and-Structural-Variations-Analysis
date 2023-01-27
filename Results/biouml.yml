@@ -1,0 +1,26 @@
+files:
+- name: pbmm2_out
+  properties:
+    analysisParametersDescription: '<div><b>Parameters:</b><br><ul type="circle"><li><b>wdlScriptPath</b>:
+      <a href="de:data%2FCollaboration%2FSequencer+examples%2FSNP+and+Structural+Variations+Analysis%2Fwdls%2Fpbmm2.wdl"
+      title="data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/wdls/pbmm2.wdl">pbmm2.wdl</a></li><li><b>inputStyle</b>
+      (expert): params</li><li><b>bioumlParams</b><ul><li><b>run_pbmm2.reference_name</b>:
+      hs37d5</li><li><b>run_pbmm2.reference_fasta</b>: <a href="de:data%2FCollaboration%2FSequencer+examples%2FSNP+and+Structural+Variations+Analysis%2FInput%2Fhuman_hs37d5.fasta"
+      title="data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/Input/human_hs37d5.fasta">human_hs37d5.fasta</a></li><li><b>run_pbmm2.sample_name</b>:
+      sample</li><li><b>run_pbmm2.reference_index</b>: <a href="de:data%2FCollaboration%2FSequencer+examples%2FSNP+and+Structural+Variations+Analysis%2FInput%2Fhuman_hs37d5.fasta.fai"
+      title="data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/Input/human_hs37d5.fasta.fai">human_hs37d5.fasta.fai</a></li><li><b>run_pbmm2.movies</b><ul><li><b>[0]</b><ul><li><b>run_pbmm2.movies</b>:
+      <a href="de:data%2FCollaboration%2FSequencer+examples%2FSNP+and+Structural+Variations+Analysis%2FInput%2Ftest_data.chr15.fastq"
+      title="data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/Input/test_data.chr15.fastq">test_data.chr15.fastq</a></li></ul></li></ul></li></ul></li><li><b>Workflow
+      options</b> (expert): (none)</li><li><b>outFolder</b>: <a href="de:data%2FCollaboration%2FSequencer+examples%2FSNP+and+Structural+Variations+Analysis%2FResults%2Fpbmm2_out"
+      title="data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/Results/pbmm2_out">pbmm2_out</a></li></ul></div>'
+    analysis.class: biouml.plugins.wdl.RunWDLAnalysis$Parameters
+    analysis.inputStyle: params
+    analysis.bioumlParams: '[{"name":"run_pbmm2.reference_name","type":"java.lang.String","value":"hs37d5","bound":false,"constrained":false,"displayName":"run_pbmm2.reference_name","expert":false,"hidden":false,"preffered":false,"propertyEditorClass":null,"shortDescription":"run_pbmm2.reference_name","attributes":{"can-be-null":"false"}},{"name":"run_pbmm2.reference_fasta","type":"ru.biosoft.access.core.DataElementPath","value":"data/Collaboration/Sequencer
+      examples/SNP and Structural Variations Analysis/Input/human_hs37d5.fasta","bound":false,"constrained":false,"displayName":"run_pbmm2.reference_fasta","expert":false,"hidden":false,"preffered":false,"propertyEditorClass":null,"shortDescription":"run_pbmm2.reference_fasta","attributes":{"isInput":"true","can-be-null":"false"}},{"name":"run_pbmm2.sample_name","type":"java.lang.String","value":"sample","bound":false,"constrained":false,"displayName":"run_pbmm2.sample_name","expert":false,"hidden":false,"preffered":false,"propertyEditorClass":null,"shortDescription":"run_pbmm2.sample_name","attributes":{"can-be-null":"false"}},{"name":"run_pbmm2.reference_index","type":"ru.biosoft.access.core.DataElementPath","value":"data/Collaboration/Sequencer
+      examples/SNP and Structural Variations Analysis/Input/human_hs37d5.fasta.fai","bound":false,"constrained":false,"displayName":"run_pbmm2.reference_index","expert":false,"hidden":false,"preffered":false,"propertyEditorClass":null,"shortDescription":"run_pbmm2.reference_index","attributes":{"isInput":"true","can-be-null":"false"}},{"name":"run_pbmm2.movies","type":"[Lcom.developmentontheedge.beans.DynamicPropertySet;","value":"[\"[{\\\"name\\\":\\\"run_pbmm2.movies\\\",\\\"type\\\":\\\"ru.biosoft.access.core.DataElementPath\\\",\\\"value\\\":\\\"data/Collaboration/Sequencer
+      examples/SNP and Structural Variations Analysis/Input/test_data.chr15.fastq\\\",\\\"bound\\\":false,\\\"constrained\\\":false,\\\"displayName\\\":\\\"run_pbmm2.movies\\\",\\\"expert\\\":false,\\\"hidden\\\":false,\\\"preffered\\\":false,\\\"propertyEditorClass\\\":null,\\\"shortDescription\\\":\\\"run_pbmm2.movies\\\",\\\"attributes\\\":{\\\"isInput\\\":\\\"true\\\",\\\"can-be-null\\\":\\\"false\\\"}}]\"]","bound":false,"constrained":false,"displayName":"run_pbmm2.movies","expert":false,"hidden":false,"preffered":false,"propertyEditorClass":null,"shortDescription":"run_pbmm2.movies","attributes":{"wdl-type":"array","can-be-null":"false","item-prototype":"DPS(com.developmentontheedge.beans.DynamicPropertySetSupport):\n  1.
+      run_pbmm2.movies (class ru.biosoft.access.core.DataElementPath) - null"}}]'
+    analysis.wdlScriptPath: data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/wdls/pbmm2.wdl
+    analysis.outFolder: data/Collaboration/Sequencer examples/SNP and Structural Variations Analysis/Results/pbmm2_out
+    analysisName: Run WDL
+    analysis.includes: '[]'
